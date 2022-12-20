@@ -18,12 +18,8 @@
 
     $nai = null;
     echo "\$nai의 데이터형(값 {nai})은 ".gettype($nai);
-    echo "<br>"
+    echo "<br>";
 
     $boolean = true;
     echo "\$boolean의 데이터형(값 {boolean})은".gettype($boolean);
 ?>
-
-
-
-
