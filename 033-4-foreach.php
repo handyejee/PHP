@@ -7,7 +7,7 @@
     foreach ($memberList as $index => $value) {
         foreach ($value as $index2 => $value2) {
             if ($index2 == 'name') {
-                echo "{$value2}님의 아이디는 :";
+                echo "{$value2}님의 아이디는: ";
             }
             if ($index2 == 'id') {
                 echo "{$value2} 입니다.";
