@@ -5,6 +5,6 @@
     $cutStr = substr("$str", 0, 5);
     $cutStr2 = substr("$str", -1, 5);
     
-    echo $cutStr;
+    echo $cutStr."<br>";
     echo $cutStr2;
 ?>
