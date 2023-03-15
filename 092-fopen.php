@@ -2,7 +2,7 @@
     $fopen = fopen('helloworld.txt', 'r+');
     
     if ($fopen) {
-        echo "ÆÄÀÏÀ» ¿­¾ú½À´Ï´Ù.";
+        echo "íŒŒì¼ì„ ì—´ì—ˆìŠµë‹ˆë‹¤.";
     } else {
-        echo "ÆÄÀÏÀ» ¿©´Âµ¥ ½ÇÆÐÇß½À´Ï´Ù.";
+        echo "íŒŒì¼ì„ ì—¬ëŠ”ë° ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.";
     }
